@@ -1,0 +1,17 @@
+FreeCodeCamp aims to teach us how to build an HTML5 cat photo web app part-by-part
+
+For this lesson, headings were explained a little more with <h> elements used to structure different types of headings.
+
+As mentioned on the site: 
+<h1> is used for main headings
+<h2> used for subheadings
+<h3> <h4> <h5> <h5> are elements used to indicate different levels of subheadings.
+
+I had to add a <h2> tag that says 'CatPhotoApp' to create a subheading and should place it under my 'Hello World' heading
+The initial code : <h1>Hello World</h1>
+
+This is what I did:
+<h1>Hello World</h1>
+<h2>CatPhotoApp</h2>
+
+Running the test allowed me to proceed as I met the criteria of creating the subheading.
