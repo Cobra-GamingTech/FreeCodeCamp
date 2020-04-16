@@ -1,0 +1,46 @@
+So for this lesson, it teaches you about creating bulleted unordered lists.
+
+It is a pretty simple element to use.
+An unordered list openeing tag is <ul> and its closing tag is </ul>
+For every item you wish to place within the unordered list - you must input the item with <li></li> tags
+
+The example that FCC provide:
+<ul>
+  <li>milk</li>
+  <li>cheese</li>
+</ul>
+
+So you can see the <ul> being used to start an unoredered list while the <li> element is used to input each item in the list.
+
+The intial code:
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, 
+  hairball run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy 
+  fur catnip scratched.</p>
+</main>
+
+
+The task required me to remove the last two <p> elements and create an unordered list of three things that cats love.
+
+This is my code:
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <ul>
+    <li>Milk</li>
+    <li>Tuna</li>
+    <li>Bread</li>
+   </ul> 
+</main>
+
+As you can see, I have demonstrated the use of the <ul> element and <li> elements to create an unordered list of three things.
+NOTE: I have not come across a cat who loves bread haha so correct me if im wrong
