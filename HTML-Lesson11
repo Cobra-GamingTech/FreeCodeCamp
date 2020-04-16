@@ -1,0 +1,93 @@
+I thought <a> elements were just for external links, but it turns out they can also be used to create internal links
+so that you can jump to different sections of a webpage.
+
+To create an internal link, the link's href attribute must be assigned a hash symbol # plus the value of the 'id' attribute 
+for the element that you want to link to internally. You need to add the same id attribute to the element being linked to.
+
+This is the example that FCC provides:
+<a href="#contacts-header">Contacts</a> 
+...
+<h2 id="contacts-header">Contacts</h2>
+
+See how there is a hash symbol for the 'contacts-header'
+and also an id value which is for 'contacts-header'
+Basically, when a user clicks on the 'Contacts' link, they will be taken to the section of the page with the 'Contacts' header 
+element.
+
+First things first - do not be thrown off by all the text in the lesson as it happened to me.
+Direct your attention to the instructions to complete the task as this will help you identify exactly what and where you need 
+to insert any changes to proceed to the next lesson.
+
+The intial code: 
+<h2>CatPhotoApp</h2>
+<main>
+
+  <a href="http://freecatphotoapp.com" target="_blank">cat photos</a>
+
+  <img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
+
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, 
+  hairball run catnip eat the grass sniff. Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere 
+  rip the couch sleep in the sink fluffy fur catnip scratched. Kitty ipsum dolor sit amet, shed everywhere shed everywhere 
+  stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur 
+  catnip scratched. Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, 
+  hairball run catnip eat the grass sniff. Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch 
+  sleep in the sink fluffy fur catnip scratched.</p>
+  <p>Meowwww loved it, hated it, loved it, hated it yet spill litter box, scratch at owner, destroy all furniture, especially 
+  couch or lay on arms while you're using the keyboard. Missing until dinner time toy mouse squeak roll over. With tail in the 
+  air lounge in doorway. Man running from cops stops to pet cats, goes to jail.</p>
+  <p>Intently stare at the same spot poop in the plant pot but kitten is playing with dead mouse. Get video posted to internet 
+  for chasing red dot leave fur on owners clothes meow to be let out and mesmerizing birds leave fur on owners clothes or favor 
+  packaging over toy so purr for no reason. Meow to be let out play time intently sniff hand run outside as soon as door open 
+  yet destroy couch.</p>
+
+</main>
+
+<footer>Copyright Cat Photo App</footer>
+
+The task required me to:
+change the external link to an internal link by changing the href attribute to #footer
+change the text 'cat photos' to 'jump to bottom'
+remove the - target="_blank" attribute
+add an id attribute with the value of footer to the <footer> element at the bottom of the page
+
+Simply work through this, one at a time.
+
+This was my code:
+
+<h2>CatPhotoApp</h2>
+<main>
+
+  <a href="#footer" >Jump to Bottom</a>
+
+  <img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
+
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot,
+  hairball run catnip eat the grass sniff. Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere 
+  rip the couch sleep in the sink fluffy fur catnip scratched. Kitty ipsum dolor sit amet, shed everywhere shed everywhere
+  stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur
+  catnip scratched. Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot,
+  hairball run catnip eat the grass sniff. Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the 
+  couch sleep in the sink fluffy fur catnip scratched.</p>
+  <p>Meowwww loved it, hated it, loved it, hated it yet spill litter box, scratch at owner, destroy all furniture, 
+  especially couch or lay on arms while you're using the keyboard. Missing until dinner time toy mouse squeak roll over. 
+  With tail in the air lounge in doorway. Man running from cops stops to pet cats, goes to jail.</p>
+  <p>Intently stare at the same spot poop in the plant pot but kitten is playing with dead mouse. Get video posted to internet 
+  for chasing red dot leave fur on owners clothes meow to be let out and mesmerizing birds leave fur on owners clothes or favor 
+  packaging over toy so purr for no reason. Meow to be let out play time intently sniff hand run outside as soon as door open yet
+  destroy couch.</p>
+
+</main>
+
+<footer id="footer"> Copyright Cat Photo App</footer>
+
+NOTE: I ran the tests initially with the end of the page as - <footer> id="footer"> Copyright Cat Photo App</footer>
+I just could not put my finger on it but went back to the example and followed the code as if I wrote it
+I came to identify that the opening <footer> tag should not have the > arrow which allowed the code to work and allow me 
+to proceed
+
+As you progress through, you might come across small things like this which might not allow your code to pass the 
+requirements first time, so just keep an eye on how the example is shown and understand how it is done. Fiddle with the 
+internal links to give the page a more personalised touch for your learning experience.
