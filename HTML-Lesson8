@@ -1,0 +1,32 @@
+HTML5 introduces more descriptive HTML tags which include:
+<main> <header> <footer> <nav> <video> <article> <selection> and so many more.
+
+Not only do these tags give a descriptive structure to your HTML code but it allows you to be as granular as you want with
+your design. There is still a lot more content to help you understand this through each lesson but don't worry, I'll get there.
+
+This lesson goes into how the <main> tag help search engines and other developers find the main content of your page.
+The example freeCodeCamp provides:
+<main> 
+  <h1>Hello World</h1>
+  <p>Hello Paragraph</p>
+</main>
+showing how two child elements are nested within the <main> tag.
+
+The task required me to create a second paragraph element after the existing <p> element and then nest those within a <main> tag.
+
+The intial code: 
+<h2>CatPhotoApp</h2>
+
+<p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, 
+hairball run catnip eat the grass sniff.</p>
+
+This was my code:
+<h2>CatPhotoApp</h2>
+<main>
+<p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+<p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+</main>
+
+Hoping you can see that after the h2 element, I inserted a <main> tag and nested two paragraph elements within.
+
+a few words of advice: DON'T FORGET CLOSING TAGS
