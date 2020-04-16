@@ -1,0 +1,28 @@
+This lesson had me confused a little due to not knowing what lorem ipsum was initally.
+
+The lesson went into what the lorem ipsum text was and how it was used by web developers (as placeholder text)
+which was the main teaching. I had to replace my old text within the <p> element and replace it with what FCC
+called the 'kitty ipsum' text.
+
+Kitty ipsum text = Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, 
+hairball run catnip eat the grass sniff.
+
+Initial code: 
+<h1>Hello World</h1>
+
+<h2>CatPhotoApp</h2>
+
+<p>Hello Paragraph</p>
+
+What I did was delete the old text within my paragraph element and replace it with the new text:
+<h1>Hello World</h1>
+
+<h2>CatPhotoApp</h2>
+
+<p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, 
+hairball run catnip eat the grass sniff.</p>
+
+Doing these practical activities should help you a lot more in understanding the idea behind elements in use.
+You can surely do this and move on to the next lesson but fiddle around with spacing and the input words to give you a more
+personalised experience of each lesson.
+I found it useful to do this as it helped me remember the concept a lot better.
