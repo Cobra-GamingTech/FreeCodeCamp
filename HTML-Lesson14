@@ -1,0 +1,38 @@
+This lesson teaches you that you can make elements into links by nesting them within
+an 'a' element
+
+The example provided by FCC:
+<a href="#"><img src="https://bit.ly/fcc-running-cats" alt="Three kittens running towards the camera."></a>
+
+See how the 'img' element is nested within an 'a' element?
+Doing the same thing for this task
+
+The intial code:
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
+
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball 
+  run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur
+  catnip scratched.</p>
+</main>
+
+
+My code:
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
+  cat photos</a>.</p>
+
+
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run 
+  catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur 
+  catnip scratched.</p>
+</main>
+
+If you hover over the image, it should allow you to click on it as it has turned into a link.
+Its actually useful and the practice can be seen in hundreds of active websites.
