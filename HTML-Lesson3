@@ -1,0 +1,18 @@
+This lesson was introducing the <p> element which is used to paragraph text on a website.
+
+The lesson required me to create a paragraph element beneath my subheading.
+
+The intial code: 
+<h1>Hello World</h1>
+<h2>CatPhotoApp</h2>
+
+I then moved to do this:
+<h1>Hello World</h1>
+<h2>CatPhotoApp</h2>
+<p>Hello Paragraph</p>
+
+Running the tests allowed me to proceed.
+
+The best thing about freeCodeCamp is that the simple layout and instructions along with the test environment
+allows you to learn effectively while identifying any errors quickly. Obviously I am still early in the HTML
+content but there will be more stuff to come.
