@@ -1,0 +1,61 @@
+The aim of this lesson is to teach you about nesting links within other text elements.
+
+The example provided by FCC:
+<p>
+  Here's a <a target="_blank" href="http://freecodecamp.org"> link to freecodecamp.org</a> for you to follow.
+</p>
+
+This was so confusing for me at first but again - its about taking it one step at a time
+
+Normal text is wrapped in the p element: <p> Here's a ... for you to follow. </p> 
+The anchor element <a> (which requires a closing tag </a>):<a> ... </a> target is an anchor tag attribute that specifies 
+where to open the link and the value "_blank" specifies to open the link in a new tab 
+href is an anchor tag attribute that contains the URL address of the link:
+<a href="http://freecodecamp.org"> ... </a> 
+The text, "link to freecodecamp.org", within the a element called anchor text,
+will display a link to click:
+<a href=" ... ">link to freecodecamp.org</a> 
+
+And in turn the result will look like this:
+Here's a link to freecodecamp.org for you to follow.
+
+The intial code: 
+<h2>CatPhotoApp</h2>
+<main>
+
+  <a href="http://freecatphotoapp.com" target="_blank">cat photos</a>
+
+  <img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
+
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball
+  run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur 
+  catnip scratched.</p>
+</main>
+
+The task required me to nest the existing 'a' element 
+within a new 'p' element 
+just after the existing 'main' element
+The new 'p' element should have text that says "View more cat photos", where "cat photos" is a link
+while the rest of the text is plaintext
+
+What I thought was difficult, was actually pretty easy:
+<h2>CatPhotoApp</h2>
+<main>
+<p>View more
+  <a href="http://freecatphotoapp.com" >cat photos</a>
+</p>
+  <img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
+
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, 
+  hairball run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy 
+  fur catnip scratched.</p>
+</main>
+
+See how after the h2 element, I inserted the new <p> element while nesting the existing <a> element within the paragraph.
+Adding the text: "View more" in the <p> element gave me the final result of output being:
+View more cat photos 
+(where cat photos was a link)
+
+It's actually really cool stuff.
