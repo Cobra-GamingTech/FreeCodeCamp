@@ -1,0 +1,34 @@
+This is an interesting lesson because it teaches you how to make dead links
+It might seem like 'oh why would I need this if I can simply remove the link'
+It's gonna come in handy at a later point throughout the curriculum when learning JavaScript(JS)
+
+The intial code: 
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="http://freecatphotoapp.com" target="_blank">cat photos</a>.</p>
+
+  <img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
+
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot,
+  hairball run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy
+  fur catnip scratched.</p>
+</main>
+
+The task requires me to make my 'a' element a dead link by setting my href attribute to a hash symbol #
+
+My code:
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
+
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, 
+  hairball run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy
+  fur catnip scratched.</p>
+</main>
+
+It's simple - just replace the whole href attribute with a # as shown above and this will create a dead link
+Keep in mind, this will be used later through the JS content. 
