@@ -1,0 +1,26 @@
+The lesson had pretty much the same task as Lesson 5 however it required me to comment out
+only the h1 and p elements and not my h2
+
+The intial code: 
+<!--
+<h1>Hello World</h1>
+
+<h2>CatPhotoApp</h2>
+
+<p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, 
+hairball run catnip eat the grass sniff.</p>
+-->
+
+This is my code:
+<!--
+<h1>Hello World</h1>
+-->
+<h2>CatPhotoApp</h2>
+<!--
+<p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, 
+hairball run catnip eat the grass sniff.</p>
+-->
+
+As I am sure you can see, I used the comment tags for the h1 element and p element which left the h2 element to be the only
+text which could be viewed. 
+You can fiddle with the comment tags to write your own comment so you can understand how it works better.
