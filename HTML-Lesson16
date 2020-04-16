@@ -1,0 +1,59 @@
+This lesson teaches you the same thing as Lesson 15 however the only difference is that we will be working with an 
+orderd list
+
+In the last lesson we used <ul> to create an unordered list and <li> elements for listing each item.
+For this lesson we will use <ol> to create an ordered list which will be numbered and of course, the <li> elements to list 
+each item.
+
+The example by FCC:
+<ol>
+  <li>Garfield</li>
+  <li>Sylvester</li>
+</ol>
+
+The initial code:
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+
+</main>
+
+This task is simple as I have to have an ordered list for "Top 3 things cats hate:" and unordered list for things that cats
+love.
+<ul> and </ul> for unordered list
+with <ol> and </ol> for ordered list
+Same concept of creating a list, just different tags to specify what type.
+
+My code:
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>mice</li>
+    <li>dogs</li>
+    <li>other cats</li>
+   </ol> 
+
+</main>
+
+It's easy stuff as the syntax is real simple
