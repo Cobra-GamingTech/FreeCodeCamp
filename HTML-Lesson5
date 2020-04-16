@@ -1,0 +1,27 @@
+Commenting is very important not just within HTML but all programming languages.
+It allows for other developers to understand the reason behind why you wrote specific code a certain way
+or to simply inform someone the function behind the code.
+
+In HTML, comments start with <!-- and end with a -->
+It might seem a little confusing but you do it enough and it will become a force of habit
+
+The intial code within the lesson:
+<!--
+<h1>Hello World</h1>
+
+<h2>CatPhotoApp</h2>
+
+<p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, h
+airball run catnip eat the grass sniff.</p>
+-->
+
+The task required me to uncomment all the current code (h1, h2 and p elements)
+To do this, I removed the comment elements like this:
+<h1>Hello World</h1>
+
+<h2>CatPhotoApp</h2>
+
+<p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, 
+hairball run catnip eat the grass sniff.</p>
+
+Doing this led to the code turning back to its usual font colour and allowing me to proceed to the next lesson
