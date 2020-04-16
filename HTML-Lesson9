@@ -1,0 +1,42 @@
+This lesson is really important as it teaches you about adding images to a website.
+You will be able to see major differences between adding images by copy and pasting into the site and 
+using an actual image element.
+
+Adding images is done by using the <img> element and pointing to the image's source URL is done by including the 
+src attribute
+
+The example FCC provided to explain the idea was:
+<img src="https://www.your-image-source.com/your-image.jpg">
+
+All <img> elements must have an alt attribute as explained within the lesson as the text inside the alt attribute is used
+for screen readers to improve accessibility and is displayed in the instance that the image fails to load.
+The lesson also notes that 'if the image is purely decorative, using an empty alt attribute is a best practice'
+
+The intial code:
+<h2>CatPhotoApp</h2>
+<main>
+
+
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, 
+  hairball run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy 
+  fur catnip scratched.</p>
+</main>
+
+The task required me to add an <img> element within the <main> element but before the existing <p> elements
+It also states that the src attribute should point to - https://bit.ly/fcc-relaxing-cat
+
+This was my code: 
+<h2>CatPhotoApp</h2>
+<main>
+
+<img src="https://bit.ly/fcc-relaxing-cat" alt="A relaxing cat">
+  <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, 
+  hairball run catnip eat the grass sniff.</p>
+  <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy
+  fur catnip scratched.</p>
+</main>
+
+NOTE: see how my <img> element is written and includes the source pointing to the URL required and applicable text within
+the alt attribute. Don't forget that to close this element - it is a closing arrow >
+I became confused as a normal closing tag </img> worked but I simply followed by the example that FCC provided.
