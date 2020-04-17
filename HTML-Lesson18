@@ -1,0 +1,57 @@
+This lesson is real simple.
+
+The task required me to add placeholder text to the text field which was created previously.
+
+The example FCC provide:
+<input type="text" placeholder="this is placeholder text">
+
+The intial code:
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <input type="text">
+</main>
+
+I had to set the placeholder value of the text input to "cat photo URL"
+
+This was my code:
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <input type="text" placeholder="cat photo URL">
+</main>
+
+See how my placeholder value goes in straight after my input type.
+After running this code, within my field - the placeholder displays as "cat photo URL"
+This is handy as you can signal to the user what input is required of them for this specific field.
+Have a fiddle around with the placeholder text and personalise it to see what happens.
