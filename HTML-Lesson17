@@ -1,0 +1,62 @@
+The lesson proceeds to teach you how to create a basic web form
+
+It begins by going into <input> elements and how they are a convenient way of requesting input from a user.
+
+The example provided by FCC:
+<input type="text">
+
+See that the example for the input element is self closing and does not require a standard closing tag like other elements
+(e.g.</>)
+The task required me to create an input element of the type 'text' below the lists.
+
+The intial code:
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+
+
+</main>
+
+This is my code:
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+<input type="text">
+
+</main>
+
+See that I created an input element which will take text type input from the user. This type of input can obviously be
+redirected to wherevver you wish but this is just the concept behind creating a text field. It should reflect in your testing
+environment on freeCodeCamp as a text box underneath your lists.
+
+It's a simple task and pretty useful feature to learn.
