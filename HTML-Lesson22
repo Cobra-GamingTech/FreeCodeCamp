@@ -1,0 +1,93 @@
+RADIO buttons!!!
+
+You have probably come across this in a multiple choice test or survey of some sort.
+You can use radio buttons for questions where you want a user to give you an answer out of several options.
+
+So what happens with creating a radio button?
+An example of a radio button by FCC:
+<label> 
+  <input type="radio" name="indoor-outdoor">Indoor 
+</label>
+
+Radio buttons are a type of 'input'
+See when we created the text field, our 'input' type was text?
+This time around it is 'radio'
+A radio button can be nested within its own <label> element.
+All related radio butttons should have the same 'name' attribute to create a group of radio buttons.
+
+In the lesson, FCC also says:
+It is considered best practice to set a 'for' attribute on the <label> element, with a value that matches the value of the 
+'id' attribute of the <input> element. This allows assistive technologies to create a linked relationship between the label 
+and the child input element. 
+For example:
+<label for="indoor"> 
+  <input id="indoor" type="radio" name="indoor-outdoor">Indoor 
+</label>
+
+The intial code of this lesson:
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+
+I was required to add a pair of radio buttons to the form with each being nested in its own <label> element.
+One button should be for 'indoor' while the other option should be for 'outdoor'
+Both options should share the 'name' attribute of 'indoor-outdoor' for the purpose of creating a radio group.
+
+This was my code for this lesson:
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+     <label> 
+  <input type="radio" name="indoor-outdoor">Indoor 
+</label>
+<label> 
+  <input type="radio" name="indoor-outdoor">Outdoor
+</label>
+  </form>
+  
+  See how I just created two <label> elements for the two radio buttons which were required?
+  Also set the radio group for both buttons as 'indoor-outdoor'
+  I personally, get confused when a lot of stuff gets thrown at me in an instant but I need a minute or two to
+  breakdown all the information in front of me.
+  The answer is always there, its about taking the time to identify what you need to solve the problem.
+  This is just a lesson for teaching purposes, imagine once you get the hang of creating websites? Jheeze.
+  
+  NOTE: I think I stated the word 'radio' about 12 or 13 times and thats excluding the use of the word within the code samples
