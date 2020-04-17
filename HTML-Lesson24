@@ -1,0 +1,98 @@
+This lesson teaches you about the 'value' attribute and how it is used when a form gets submitted.
+It's really important to set values which are related to what you require and are easily understood as the inputs of the type
+'radio' or 'checkbox' report their values from the 'value' attribute.
+
+The example provided by FCC:
+<label for="indoor"> 
+  <input id="indoor" value="indoor" type="radio" name="indoor-outdoor">Indoor 
+</label>
+<label for="outdoor"> 
+  <input id="outdoor" value="outdoor" type="radio" name="indoor-outdoor">Outdoor 
+</label>
+
+When the form is submitted with for example, the indoor checkbox selected - the form data will give you the output of
+indoor-outdoor=indoor.
+'indoor-outdoor' being your group and 'indoor' being the selection by the user which you created initially.
+
+In the lesson, FCC also says:
+If you omit the value attribute, the submitted form data uses the default value, which is on. In this scenario, if the user 
+clicked the "indoor" option and submitted the form, the resulting form data would be indoor-outdoor=on, which is not useful. 
+So the value attribute needs to be set to something to identify the option.
+
+This is actually something I find to be very important as I am sure the who point of you allowing data to be collected and sent 
+back to your destination is to collect the data and acquire results. Having the default attribute set will not give you the 
+result you want or need.
+
+Put it like this: 
+you can ask someone face to face for their name, address, DOB and all that other stuff and do the droning job of 
+putting it into spreadsheet software like Excel, manually, one by one
+OR
+have them fill out your form and the data sent back to you is already assigned to your chosen attributes making the job
+and life itself easier.
+
+The intial code:
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+  
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+  
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor"> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality"> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+
+The task required me to give each of the radio and checkbox buttons a 'value' attribute.
+
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+  
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+  
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="/submit-cat-photo">
+    <label><input value="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+    <label><input value="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input value="loving"type="checkbox" name="personality"> Loving</label>
+    <label><input value="lazy" type="checkbox" name="personality"> Lazy</label>
+    <label><input value="energetic" type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+
+See how simple it is? just add the 'value' attribute with an assigned value so that the data on the server end is easier for
+you to sort and identify.
+NOTE: I was actaully confused when I say <br> but this is just to create a line break and aids in structuring your content.
+This should reflect in your test environment where your radio buttons are on one line and checkboxes are on another.
+It looks so much better than all of it being stuck together on one line.
