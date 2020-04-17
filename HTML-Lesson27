@@ -1,0 +1,17 @@
+Nearly forgot to tell you probably the most important thing ever!
+You have to DECLARE the doctype of a HMTL document
+What your essentially doing is telling the machine what it is that you are writing
+
+For this task, I was required to add a DOCTYPE tag for HTML5 making my declaration
+and underneath add opening <html> and closing </html> tags which wrap around a <h1> heading element
+
+This is to declare the Doctype: <!DOCTYPE html>
+
+My code:
+<!DOCTYPE html>
+<html>
+  <h1> This is me declaring </h1>
+ </html> 
+ 
+ REMEMBER, the declaration goes on the very first line or beginning of your document before proceeding to code.
+ Don't forget the opening and closing <html> tags
