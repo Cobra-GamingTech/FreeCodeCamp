@@ -1,0 +1,76 @@
+This lesson teaches you that classes are reusable styles which can be added to HTML elements.
+
+The example provided by FCC:
+<style>
+  .blue-text {
+    color: blue;
+  }
+</style>
+
+The example shows that a CSS class has been created which is called 'blue-text' within the <style> tag
+Classes can be applied to a HTML element like this (Another example by FCC): 
+<h2 class="blue-text">CatPhotoApp</h2>
+
+Something that should be read and understood from the lesson is that in the CSS style element, class names start with a period. 
+In  HTML elements' class attribute, the class name does not include the period.
+You can see this in both the examples provided above by FCC where the first example of the CSS 'style' element starts with a 
+dot/full stop and the second example of the HTML style attribute where the class name does not have a dot/full stop
+
+This was the initial code for the task:
+<style>
+  h2 {
+    color: blue;
+  }
+</style>
+
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+
+The task required me to change the 'h2' selector to '.red-text' inside the 
+<style> element and update the colour value from 'blue' to 'red'
+
+This was my code for making changes to the <style> element and <h2> element:
+<style>
+  .red-text{
+    color: red;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+
+I'll be honest - I was a little confused at tackling this task even though the instructions were clear.
+I just started questioning the whole 'well if I've already set a rule then why do I need to assign something
+within the actual <h2> element?
+Turns out that I totally forgot that for the task, the 'h2' selector gets removed and replaced with '.red-text'
+It is only one of many things that I will be confused about but yeah its a learning process.
+You can fiddle wth the <style> element and <h2> element to reflect any other changes you might want to see.
+Change it to the colour green or something
