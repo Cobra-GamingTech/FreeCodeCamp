@@ -1,0 +1,51 @@
+The intial code:
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+
+This lesson teaches you how to change the colour of some text.
+The task required me to change the <h2> element style so that the text colour would become red.
+
+This is the example provided by FCC, where the code turns the text colour to blue:
+<h2 style="color: blue;">CatPhotoApp</h2>
+
+The advice that FCC also gives is that it is a good practice to end inline 'style' declarations with a ; (semi-colon)
+See this in the example FCC provide.
+
+I won't input the all the code on the screen but only that which allows the text colour to change to red as the rest is not 
+being worked on at the moment and it will take up unneccessary space within the file
+This was my code:
+<h2 style="color: red;">CatPhotoApp</h2>
+
+NOTE: I'm still learning as I go but I have noticed that the 'color' style property only operates under US English spelling
+I'm from London[UK] where we spell it as 'colour' and that did not work when stated within the code.
+The colour should be reflected within the test environment where the <h2> element (heading) is the colour red.
+But yeah, pretty simple stuff and handy when you need to change text colour's for any reason.
