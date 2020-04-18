@@ -1,0 +1,73 @@
+This lesson teaches you how to add a negative margin to an element
+
+Basically, if you set the 'margin' of an element to a negative value, then the element will grow larger.
+
+The intial code:
+<style>
+  .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+    margin: -15px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    margin: 20px;
+  }
+</style>
+
+<div class="box yellow-box">
+  <h5 class="box red-box">padding</h5>
+  <h5 class="box blue-box">padding</h5>
+</div>
+
+The task required me to change the 'margin' to a negative value of -15px of the blue box
+
+This was my code:
+.yellow-box {
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+    margin: -15px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+    margin: -15px;
+  }
+
+You can view the effects of the change in code on your testing environment.
+The thing about CSS properties right, is that it is all just small stuff.
+But if you put all the things you've learned together then it becomes this big bowl of endless creativity.
+
+I used to hate intro stuff like HTML and CSS because it felt like I couldn't do anything with it.
+It ended up letting me take my first steps into coding and opened my eyes to something new.
+Trust me when I say, get through the Responsive Web Design and make some engaging projects.
+Use it all as a portfolio of your practical knowledge and get where you wanna be.
