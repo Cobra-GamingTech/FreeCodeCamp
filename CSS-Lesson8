@@ -1,0 +1,85 @@
+Recall from the last lesson where we had the option of using GENERIC_NAME as a fallback font?
+This is what this lesson covers as it teaches you to specify how your fonts should
+degrade should the first choice not be available to the user.
+
+This is the example that FCC provide showing how you can have the broswer degrade to the 'sans-serif' 
+font should the 'Helvetica' font not be available:
+p {
+  font-family: Helvetica, sans-serif;
+}
+
+This is the intial code:
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+<main>
+  <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+
+The task required me to comment out the link at the top which allowed for the importing of the 'Lobster' font.
+I also had to set the fall back font set to be 'monospace'
+
+This was my code:
+<!--<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"> -->
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+</style>
+
+See how after 'Lobster', I put the 'monospace' font as a way of telling the browser what to degrade to in the instance 
+Lobster is not available
+NOTE: If you have the 'Lobster' font installed on your machine then the font of the <h2> elementshould not change
+due to your broswer being able to find the font.
+It's actually really cool as you can call it a small contingency for times where you want your branding to be
+consistent with what you might have in place initially.
