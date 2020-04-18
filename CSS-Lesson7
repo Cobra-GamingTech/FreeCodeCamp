@@ -1,0 +1,68 @@
+This lesson is simple like the last. It teaches you how to set the font of an element using the 'font-family' property.
+
+This is the example FCC provide for setting the font of the <h2> element to 'sans-serif':
+h2 {
+  font-family: sans-serif;
+}
+
+The intial code:
+<style>
+  .red-text {
+    color: red;
+  }
+
+  p {
+    font-size: 16px;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+<main>
+  <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+
+The task required me to set the font of all my <p> elements to 'monospace' (its a font type)
+
+This is my code:
+<style>
+  .red-text {
+    color: red;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+</style>
+
+The change in the code should reflect into your test environment where the font should change for anything 
+which was contained in your <p> elements
+See how I just added the next CSS property under the previous one set for <p> elements
+Keep it organised and neat and you'll have a good time looking at it.
