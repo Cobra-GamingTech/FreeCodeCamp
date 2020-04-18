@@ -1,0 +1,99 @@
+This lesson explains how there are a wide range of CSS properties that you can change to make an element within
+look a specific/certain tpye of way
+
+See the previous lesson where we changed the text colour of the <h2> element to red. 
+This is just one of so many things that allow a website to be made unique to yourself and others.
+The lesson goes into creating a <style> block and create something called a 'CSS Selector' which make coding something for a
+specific element more efficient.
+
+This is the example FCC provide if you wanted ALL your <h2> elements to have the text colour as red:
+<style>
+  h2 {
+    color: red;
+  }
+</style>
+
+See above the code written which defines a rule for the <h2> element.
+It is important to have both opening and closing curly braces {} around each rule for it to be implemented.
+Don't forget opening and closing TAGS for <style>
+Be sure to remember the semi-colon to the end of each rule which you create.
+
+The intial code:
+<h2 style="color: red;">CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+
+The task required me to delete the current <h2> element 'style' attribute and create a 'CSS style block' which in turn
+would turn all <h2> elements to the colour blue.
+
+This was my code: 
+<style>
+  h2 {
+    color: blue;
+  }
+</style>
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+
+See how I added my style block to the top of my document and in turn the change was reflected in the testing environment.
+If you want to verify this change works on all <h2> elements then just add another set of <h2> tags with any text you like and 
+you should see the text become blue.
+It is a lot more efficient creating a rule for something like a group of headings to stay consistent instead of going through
+each <h2> element and adding the 'style' attribute.
