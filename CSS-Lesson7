@@ -1,0 +1,84 @@
+This lesson teaches you how to import a google font.
+Even though there are a number of styles available to choose, you have the option of getting a hold of 
+non-standard, custom web fonts for any website.
+You can grab any custom from any website provided that you reference it. (Correct me if I'm wrong)
+
+Google Fonts is a free library of web fonts which can be used in CSS by referencing the font's URL.
+NOTE: FCC page says to skip this task if Google is blocked in your country so keep it in mind)
+
+This is the code required to obtain the font 'Lobster' which we will be using for the task:
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+For this to work, you have to begin by inserting it at the top of the editor which is above the <style> element.
+The task requires me to apply this 'Lobster' font to the <h2> element.
+
+When creating this in the CSS style block, it has to be written in this syntax:
+font-family: FAMILY_NAME, GENERIC_NAME;
+
+This is the intial code:
+<style>
+  .red-text {
+    color: red;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+<main>
+  <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+
+This is my code with the additions:
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: monospace;
+  }
+</style>
+
+See how I inserted the required link for the font at the top?
+This then allowed me to import the font later when I required it.
+Some might be asking what is the GENERIC_NAME and why is it not included in your code?
+GENERIC_NAME is optional, and is a fallback font in case the other specified font is not available. 
+I left it out on purpose to make sure that my code worked correctly allowing me to proceed.
+Don't forget, you have to use a 'h2' selector for it to be implemented (see the additions above)
