@@ -1,0 +1,68 @@
+This lesson teaches you how to change the font size of an element.
+This is a very useful thing to know as it is not just the basics but I have come across a number
+of website/blog builders where changing the font sometimes does not work using the editing features that they have.
+
+You are better off directly going into the page HTML code and making the changes there before implementing
+I just find it a lot more satisfying.
+
+The example provided by FCC:
+h1 {
+  font-size: 30px;
+}
+
+See that the'font-size' CSS property is used to control the font size.
+For the task, I was required to set the <p> elements font size to 16 pixels.
+
+This was the intial code:
+<style>
+  .red-text {
+    color: red;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+<main>
+  <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <div>
+    <p>Things cats love:</p>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <p>Top 3 things cats hate:</p>
+    <ol>
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+  </div>
+
+  <form action="/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+
+This was my addition to the <style> tag:
+<style>
+  .red-text {
+    color: red;
+  }
+  p {
+  font-size: 16px;
+}
+
+</style>
+
+If you can recall, from a previous lesson - this is a basically like a rule you've set to your <p> elements.
+I'm still repeating the concept to better understand it but yeah make some changes to get a better feel of the 
+code which is written in front of you
