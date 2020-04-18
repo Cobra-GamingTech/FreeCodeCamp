@@ -1,0 +1,63 @@
+This lesson aims to teach you a little more about styling HTML
+Specifically adjusting the padding of an element
+
+There are three important properties which control the space that surrounds each HTML element
+which are 'padding', 'margin' and 'border'
+
+The intial code:
+<style>
+  .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+  }
+</style>
+<h5 class="injected-text">margin</h5>
+
+<div class="box yellow-box">
+  <h5 class="box red-box">padding</h5>
+  <h5 class="box blue-box">padding</h5>
+</div>
+
+The task required me to change the 'padding' of the blue box to match the padding of the red box.
+
+This was my code (specifcally around the padding for red and blue box):
+ .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+  }
+  
+See how the padding was initially at 10px(pixels) for the blue box and 20px for the red box.
+All I had to do to match the padding was to increase the blue box padding by 10px resulting in 20px.
+Therefore resulting in the blue box and red box being the same in terms of padding.
+You can see this effect being reflected in the test environment.
