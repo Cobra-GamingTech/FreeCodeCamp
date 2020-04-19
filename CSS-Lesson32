@@ -1,0 +1,34 @@
+This lesson dives into the use of hex code for specific colours.
+Hex code is short for hexadecimal code.
+
+FCC says in this lesson:
+We usually use decimals, or base 10 numbers, which use the symbols 0 to 9 for each digit. 
+Hexadecimals (or hex) are base 16 numbers. This means it uses sixteen distinct symbols.
+Like decimals, the symbols 0-9 represent the values zero to nine. 
+Then A,B,C,D,E,F represent the values ten to fifteen. Altogether, 0 to F can represent a digit in hexadecimal,
+giving us 16 total possible values. You can find more information about hexadecimal numbers here.
+
+In CSS, we can use 6 hexadecimal digits to represent colors, two each for the red (R), green (G), and blue (B) components. 
+For example, #000000 is black and is also the lowest possible value.
+(USE THIS LINK FOR MORE INFORMATION: https://en.wikipedia.org/wiki/RGB_color_model)
+
+The initial code:
+<style>
+  body {
+    background-color: black;
+  }
+</style>
+
+The task required me to replace the word 'black' in my <body> element's background-color with its hex code representation
+which is #000000
+
+This was my code:
+<style>
+  body {
+    background-color: #000000;
+  }
+</style>
+
+Using hex code allows for really nailing down the specifics where you cannot just name a certain type of colour.
+There might be a certain shade of blue or specific type of green that you require for an element.
+Having access to and using the hex code makes choosing colours a lot easier.
