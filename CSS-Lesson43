@@ -1,0 +1,58 @@
+FCC says:
+
+When you create your variables in ':root' they will set the value of that variable for the whole page.
+
+You can then over-write these variables by setting them again within a specific element.
+
+The initial code:
+<style>
+  :root {
+    --penguin-skin: gray;
+    --penguin-belly: pink;
+    --penguin-beak: orange;
+  }
+
+  body {
+    background: var(--penguin-belly, #c6faf1);
+  }
+
+  .penguin {
+    /* Only change code below this line */
+
+    /* Only change code above this line */
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+  }
+
+The task required me to change the value of '--penguin-belly' to 'white' in the 'penguin' class.
+
+This is my code:
+<style>
+  :root {
+    --penguin-skin: gray;
+    --penguin-belly: pink;
+    --penguin-beak: orange;
+  }
+
+  body {
+    background: var(--penguin-belly, #c6faf1);
+  }
+
+  .penguin {
+    /* Only change code below this line */
+    --penguin-belly: white;
+    /* Only change code above this line */
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+  }
+  
+The code change should reflect in the test environment where it was only applied to a specific area.
+It is another example of granularity to your design.
