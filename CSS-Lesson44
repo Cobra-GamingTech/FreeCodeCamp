@@ -1,0 +1,52 @@
+This lesson teaches you how to use 'media query' to change a variable.
+
+FCC says:
+CSS Variables can simplify the way you use media queries.
+
+For instance, when your screen is smaller or larger than your media query break point, 
+you can change the value of a variable, and it will apply its style wherever it is used.
+
+The initial code:
+<style>
+  :root {
+    --penguin-size: 300px;
+    --penguin-skin: gray;
+    --penguin-belly: white;
+    --penguin-beak: orange;
+  }
+
+  @media (max-width: 350px) {
+    :root {
+      /* Only change code below this line */
+
+      /* Only change code above this line */
+    }
+  }
+
+This was required of me in the task:
+In the ':root' selector of the media query, change it so '--penguin-size' is redefined and given a value of 200px(pixels). 
+Redefine '--penguin-skin' and give it a value of 'black'.
+Then resize the preview to see this change in action.
+
+This was my code:
+<style>
+  :root {
+    --penguin-size: 300px;
+    --penguin-skin: gray;
+    --penguin-belly: white;
+    --penguin-beak: orange;
+  }
+
+  @media (max-width: 350px) {
+    :root {
+      /* Only change code below this line */
+    --penguin-size: 200px;
+    --penguin-skin: black;
+      /* Only change code above this line */
+    }
+  }
+  
+Making this change to the code reassigns both variables in the :root to the values I have no redefined.
+Please, please, please practice these changes regularly as it can be pretty difficult to maintain if you don't work on it
+This is just the freeCodeCamp stuff but maybe try create your own variables and then use a media query to redefine your values.
+Thats the end of the Basic CSS stuff, now its time to move on to bigger and better stuff.
