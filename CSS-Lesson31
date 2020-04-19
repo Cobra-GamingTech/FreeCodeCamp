@@ -1,0 +1,48 @@
+This lesson goes over the one last way of overriding CSS.
+
+FCC says:
+This is the most powerful method of all. But before we do it, let's talk about why you would ever want to override CSS.
+
+In many situations, you will use CSS libraries. These may accidentally override your own CSS. 
+So when you absolutely need to be sure that an element has specific CSS, you can use:
+!important
+
+Let's go all the way back to our 'pink-text' class declaration. Remember that our 'pink-text' class was overridden by 
+subsequent class declarations, id declarations, and inline styles.
+
+This is the initial code:
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 id="orange-text" class="pink-text blue-text" style="color: white">Hello World!</h1>
+
+This task requires me to add the keyword !important to the 'pink-text colour declaration to make 100% sure that
+the <h1> element will be pink.
+
+This was my code:
+#orange-text {
+    color: orange;
+  }
+  .pink-text {
+    color: pink !important;
+  }
+  .blue-text {
+    color: blue;
+  }
+
+See how I added the keyword after the characteristic of my rule.
+By adding this keyword, regardless of everything else - the <h1> element has turned into the colour pink.
+Try removing the keyword and adding it to another declaration to see what happens.
