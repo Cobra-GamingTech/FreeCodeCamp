@@ -1,0 +1,74 @@
+In the previous couple of lessons, we had gone over how to specify the size of padding of certain sides on an element
+(e.g. padding-left, padding-bottom)
+
+This lesson goes into how we can use something called a Clockwise Notation to specify the padding on an element 
+as a whole.
+So instead of specifying each and every side, you can specify each and every side in one line.
+
+The example provided by FCC:
+padding: 10px 20px 10px 20px;
+
+The initial code:
+<style>
+  .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 20px 40px 20px 40px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px 40px 20px 40px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+  }
+</style>
+<h5 class="injected-text">margin</h5>
+
+<div class="box yellow-box">
+  <h5 class="box red-box">padding</h5>
+  <h5 class="box blue-box">padding</h5>
+</div>
+
+The task required me to give the '.blue-box' class a padding of 40px (pixels) on its top and left side
+but only 20px on its bottom and right side.
+
+This was my code:
+.yellow-box {
+    background-color: yellow;
+    padding: 20px 40px 20px 40px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px 40px 20px 40px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 40px 20px 20px 40px;
+  }
+  
+See the way that the code is in one line.
+In case anybody is wondering - it's in the order:
+padding-top, padding-right, padding-bottom, and padding-left
+  40px            20px          20px               40px
+As the term expresses 'Clockwise'  
+  
