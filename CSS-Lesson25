@@ -1,0 +1,28 @@
+This lesson discusses CSS inheritance.
+
+FCC says:
+Every HTML page has a <body> element.
+We can prove that the <body> element exists here by giving it a 'background-color' of black.
+
+The initial code:
+<style>
+
+</style>
+
+The task required me to give the <body> element a background colour of black while properly formatting
+the CSS rule with the curly brackets.
+DO NOT forget the semi-colon ; at the end.
+
+This was my code:
+<style>
+body {
+  background-color: black;
+}
+
+</style>
+
+Always remember, your CSS rules are created within your style block
+as you have done in all the previous lessons.
+The change in code will reflect to your testing environment.
+Try give it a different colour and input some other elements like<h2> or <p> 
+and see how they look with your chosen background colour
