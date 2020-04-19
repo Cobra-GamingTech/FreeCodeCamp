@@ -1,0 +1,36 @@
+This lesson is really important to understand as sometimes you will actually have HTML elements
+which will receive multiple style that with one another.
+
+FCC says:
+Your h1 element can't be both green and pink at the same time.
+
+The intial code:
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+</style>
+<h1>Hello World!</h1>
+
+This task required me to see what happens after creating a CSS class called 'pink-text'
+Then to give the <h1> element the class of 'pink-text'
+
+This was my code:
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+
+  .pink-text {
+    color: pink;
+  }
+</style>
+<h1 class="pink-text" Hello World!</h1>
+
+See how it effects your <h1> element.
+Clearly, 'pink-text' overrode the 'body' element declaration.
+Head over to the next lesson to learn more.
