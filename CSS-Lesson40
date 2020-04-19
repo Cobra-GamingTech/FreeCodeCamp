@@ -1,0 +1,102 @@
+This lesson teaches you how to attach a fallback value to a CSS variable as a contingency.
+
+FCC says:
+
+
+When using your variable as a CSS property value, you can attach a fallback value that your browser will 
+revert to if the given variable is invalid.
+
+Note: This fallback is not used to increase browser compatibility, and it will not work on IE browsers. 
+Rather, it is used so that the browser has a color to display if it cannot find your variable.
+
+Here's how you do it:
+
+background: var(--penguin-skin, black);
+
+This will set background to black if your variable wasn't set. Note that this can be useful for debugging.
+
+The initial code:
+<style>
+  .penguin {
+    --penguin-skin: black;
+    --penguin-belly: gray;
+    --penguin-beak: yellow;
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+  }
+
+  .penguin-top {
+    top: 10%;
+    left: 25%;
+
+    /* Change code below this line */
+    background: var(--pengiun-skin);
+    /* Change code above this line */
+
+    width: 50%;
+    height: 45%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .penguin-bottom {
+    top: 40%;
+    left: 23.5%;
+
+    /* Change code below this line */
+    background: var(--pengiun-skin);
+    /* Change code above this line */
+
+    width: 53%;
+    height: 45%;
+    border-radius: 70% 70% 100% 100%;
+  }
+
+This task required me to add a fallback value of 'black' to the 'background' property of the
+'.penguin-top' and '.penguin-bottom' classes instead of fixing the typos.
+
+This was my code:
+<style>
+  .penguin {
+    --penguin-skin: black;
+    --penguin-belly: gray;
+    --penguin-beak: yellow;
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+  }
+
+  .penguin-top {
+    top: 10%;
+    left: 25%;
+
+    /* Change code below this line */
+    background: var(--pengiun-skin, black);
+    /* Change code above this line */
+
+    width: 50%;
+    height: 45%;
+    border-radius: 70% 70% 60% 60%;
+  }
+
+  .penguin-bottom {
+    top: 40%;
+    left: 23.5%;
+
+    /* Change code below this line */
+    background: var(--pengiun-skin, black);
+    /* Change code above this line */
+
+    width: 53%;
+    height: 45%;
+    border-radius: 70% 70% 100% 100%;
+  }
+
+Your code should have the fallback value reflected in the test environment.
+It's really handy in the instance that the variable does not operate correctly on the browser of any user.
