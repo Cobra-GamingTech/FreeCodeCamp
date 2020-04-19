@@ -1,0 +1,31 @@
+This lesson moves on from the previous and explains how you can style your 'body' element just like any other HTML element, 
+and all your other elements will inherit your 'body' element's styles.
+
+The initial code:
+<style>
+  body {
+    background-color: black;
+  }
+
+</style>
+
+The task required me to create a <h1> element with the text 'Hello World'
+Give all the elements on the page the colour of green
+Give the <body> element the font-family of 'monospace'
+
+This was my code:
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+  }
+
+</style>
+
+<h1>Hello World</h1>
+
+See how the code changes reflect in the test environment?
+By adding the 'color:green;' and 'font-family:monospace;' within the <body> element
+My <h1> heading element simply inherited what was declared so that I did not have to make 
+any changes to the <h1> element directly.
