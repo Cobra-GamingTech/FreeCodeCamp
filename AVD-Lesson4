@@ -1,0 +1,90 @@
+This lesson, we'll be using the 'strong' tag to make chosen text bold.
+
+FCC says:
+To make text bold, you can use the 'strong' tag. This is often used to draw attention to text and symbolize that it is important.
+With the 'strong' tag, the browser applies the CSS of 'font-weight: bold;' to the element.
+
+This was the initial code:
+<style>
+  h4 {
+    text-align: center;
+    height: 25px;
+  }
+  p {
+    text-align: justify;
+  }
+  .links {
+    text-align: left;
+    color: black;
+  }
+  .fullCard {
+    width: 245px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+  }
+  .cardContent {
+    padding: 10px;
+  }
+  .cardText {
+    margin-bottom: 30px;
+  }
+</style>
+<div class="fullCard">
+  <div class="cardContent">
+    <div class="cardText">
+      <h4>Google</h4>
+      <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p>
+    </div>
+    <div class="cardLinks">
+      <a href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank" class="links">Larry Page</a><br><br>
+      <a href="https://en.wikipedia.org/wiki/Sergey_Brin" target="_blank" class="links">Sergey Brin</a>
+    </div>
+  </div>
+</div>
+
+The task required me to wrap a 'strong' tag around "Stanford University" inside the 'p' tag.
+
+This was my code:
+<style>
+  h4 {
+    text-align: center;
+    height: 25px;
+  }
+  p {
+    text-align: justify;
+
+  }
+  .links {
+    text-align: left;
+    color: black;
+  }
+  .fullCard {
+    width: 245px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+  }
+  .cardContent {
+    padding: 10px;
+  }
+  .cardText {
+    margin-bottom: 30px;
+  }
+</style>
+<div class="fullCard">
+  <div class="cardContent">
+    <div class="cardText">
+      <h4>Google</h4>
+      <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at 
+      <strong>Stanford University</strong></p>
+      
+I'll be honest - I misunderstood how to complete this task at first.
+I was too busy trying to make it work by inserting the CSS property of 'font-weight: bold;' to
+the rule set for 'p'. Wrapping the <strong> tag means literally what I demonstrate above. 
+NOTE: make sure there are no spaces in between the words and the tags as I initally did this:
+<strong> Stanford University </strong></p>
+and it didn't work.
+Make sure it's hugging the chosen text.
