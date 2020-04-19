@@ -1,0 +1,60 @@
+So here we are - Applied Visual Design.
+
+This lesson goes into creating visual balance using the text-align property.
+
+FCC says:
+Text is often a large part of web content. CSS has several options for how to align it with the 'text-align' property.
+
+text-align: justify; causes all lines of text except the last line to meet the left and right edges of the line box.
+text-align: center; centers the text
+text-align: right; right-aligns the text
+text-align: left; (the default) left-aligns the text.
+
+The initial code:
+<style>
+  h4 {
+
+  }
+  p {
+
+  }
+  .links {
+    margin-right: 20px;
+
+  }
+  .fullCard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+  }
+  .cardContent {
+    padding: 10px;
+  }
+</style>
+<div class="fullCard">
+  <div class="cardContent">
+    <div class="cardText">
+      <h4>Google</h4>
+      <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p>
+    </div>
+    <div class="cardLinks">
+      <a href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank" class="links">Larry Page</a>
+      <a href="https://en.wikipedia.org/wiki/Sergey_Brin" target="_blank" class="links">Sergey Brin</a>
+    </div>
+  </div>
+</div>
+
+The task required me to align the text of <h4> which says "Google" to the centre.
+Justify the paragraph which is about how Google was founded.
+
+This was my code:
+ h4 {
+text-align: center;
+  }
+  p {
+text-align: justify;
+  }
+
+After inputting the code, the changes should reflect in your test environment.
+It's a simple and clean way of aligning each and every element that you wish.
