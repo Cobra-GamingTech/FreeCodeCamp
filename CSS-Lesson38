@@ -1,0 +1,27 @@
+This lesson teaches you how to create a custom CSS variable.
+
+FCC says:
+To create a CSS variable, you just need to give it a name with two hyphens in front of it and assign it a value like this:
+
+--penguin-skin: gray;
+
+This will create a variable named --penguin-skin and assign it the value of gray.
+
+The initial code:
+<style>
+  .penguin {
+    /* Only change code below this line */
+
+    /* Only change code above this line */
+
+The task required me to create a variabke name '--penguin-skin' and give it a value of 'gray'
+
+This was my code:
+.penguin {
+    /* Only change code below this line */
+    --penguin-skin: gray;
+    /* Only change code above this line */
+
+Remember, you can change it to any other value for experimental purposes.
+Being able to create your own custom CSS variables add a degree of flexibility when in the process
+of building your own creation.
