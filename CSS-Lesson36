@@ -1,0 +1,53 @@
+This lesson introduces mixing colours with RGB
+
+HEX CODE PROVIDED BY FCC:
+Color	   |   RGB
+Blue	   |   rgb(0, 0, 255)
+Red	     |   rgb(255, 0, 0)
+Orchid	 |   rgb(218, 112, 214)
+Sienna	 |   rgb(160, 82, 45)
+
+The initial code:
+<style>
+  .red-text {
+    color: #000000;
+  }
+  .orchid-text {
+    color: #000000;
+  }
+  .sienna-text {
+    color: #000000;
+  }
+  .blue-text {
+    color: #000000;
+  }
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+<h1 class="orchid-text">I am orchid!</h1>
+
+<h1 class="sienna-text">I am sienna!</h1>
+
+<h1 class="blue-text">I am blue!</h1>
+
+The task required me to replace the hex codes in the <style> element with their correct RGB values as 
+displayed in the table above
+
+This was my code:
+<style>
+  .red-text {
+    color: rgb(255, 0, 0);
+  }
+  .orchid-text {
+    color: rgb(218, 112, 214);
+  }
+  .sienna-text {
+    color: rgb(160, 82, 45);
+  }
+  .blue-text {
+    color: rgb(0, 0, 255);
+  }
+</style>
+
+See if you can find some other colours but in the RGB format and insert them into the code.
