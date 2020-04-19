@@ -1,0 +1,74 @@
+For this lesson, we'll be using the 'width' property to adjust the width of an element.
+
+FCC says:
+You can specify the width of an element using the width property in CSS. 
+Values can be given in relative length units (such as em), absolute length units (such as px), 
+or as a percentage of its containing parent element. 
+
+Here's an example that changes the width of an image to 220px:
+img {
+  width: 220px;
+}
+
+The initial code:
+<style>
+  h4 {
+    text-align: center;
+  }
+  p {
+    text-align: justify;
+  }
+  .links {
+    margin-right: 20px;
+    text-align: left;
+  }
+  .fullCard {
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+  }
+  .cardContent {
+    padding: 10px;
+  }
+</style>
+<div class="fullCard">
+  <div class="cardContent">
+    <div class="cardText">
+      <h4>Google</h4>
+      <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University.</p>
+    </div>
+    <div class="cardLinks">
+      <a href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank" class="links">Larry Page</a>
+      <a href="https://en.wikipedia.org/wiki/Sergey_Brin" target="_blank" class="links">Sergey Brin</a>
+    </div>
+  </div>
+</div>
+
+The task required me to add a 'width' property to the entire card and set it to an absolute(unit) value of 245px(pixels)
+Use the 'fullCard' to select the element.
+
+This was my code:
+<style>
+  h4 {
+    text-align: center;
+  }
+  p {
+    text-align: justify;
+  }
+  .links {
+    margin-right: 20px;
+    text-align: left;
+  }
+  .fullCard {
+    width: 245px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+  }
+  
+  Once you enter the new code, you should see in your test environment that the surrounding box becomes smaller.
+  CSS is like magic, as you progress through AVD - you'll see a lot which can help you specify immense levels of
+  granularity to your creations.
