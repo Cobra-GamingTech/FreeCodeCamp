@@ -1,0 +1,66 @@
+This lesson uses the same concept as the last lesson with the 'Clockwise Notation'
+however we will be applying it to the 'margin' of an element
+
+Remember that clockwise means:
+margin-top, margin-right, margin-bottom, and margin-left
+
+The initial code:
+<style>
+  .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 20px 40px 20px 40px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    margin: 20px 40px 20px 40px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+  }
+</style>
+<h5 class="injected-text">margin</h5>
+
+<div class="box yellow-box">
+  <h5 class="box red-box">padding</h5>
+  <h5 class="box blue-box">padding</h5>
+</div>
+
+The task required me to give the 'blue-box' class a margin of 40px(pixels) on its top and left side
+while only 20px to the bottom and right side
+
+This was my code:
+.yellow-box {
+    background-color: yellow;
+    padding: 20px 40px 20px 40px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    margin: 20px 40px 20px 40px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    margin: 40px 20px 20px 40px;
+  }
+  
+After making the change in code, it should reflect in your test environment.
+As you move on, you'll carry on learning new CSS properties which continue to allow for granular changes.
