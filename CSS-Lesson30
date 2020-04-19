@@ -1,0 +1,53 @@
+This lesson teaches you how to override class declarations with Inline styles.
+
+The example provided by FCC to help you remember:
+<h1 style="color: green;">
+
+The initial code:
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 id="orange-text" class="pink-text blue-text">Hello World!</h1>
+
+The task required me to use an inline style to make the <h1> element the colour white.
+
+This was my code:
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  #orange-text {
+    color: orange;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 style="color: white;" id="orange-text" class="pink-text blue-text">Hello World!</h1>
+
+It is really simple, just use the inline style and leave everything else the way it was
+and you should see that the <h1> element turns into the colour white overriding previous 
+declarations.
+
+Having the ability to override, once again, allows for granularity as you can make a declaration for one type of element
+to be set in a specific way however through the creation there might be just one title using the same element that
+requires a different colour or something to look more appealling or suitable for the content.
+It's the small things that have the biggest effect.
