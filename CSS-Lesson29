@@ -1,0 +1,49 @@
+This lesson goes into how to override class declarations by styling ID attributes
+
+FCC says:
+We just proved that browsers read CSS from top to bottom in order of their declaration. 
+That means that, in the event of a conflict, the browser will use whichever CSS declaration came last.
+Notice that if we even had put 'blue-text' before 'pink-text' in our <h1> element's classes, 
+it would still look at the declaration order and not the order of their use!
+
+This is the initial code:
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
+<h1 class="pink-text blue-text">Hello World!</h1>
+
+The task required me to override the 'pink-text' and 'blue-text' classes, and make the <h1> element orange, 
+by giving the <h1> element an id and then styling that id.
+
+This was my code:
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text {
+    color: blue;
+  }
+  #orange-text {
+  color: orange;
+}
+
+</style>
+<h1 id="orange-text" class="pink-text blue-text">Hello World!</h1>
+
+The code change should reflect and your <h1> element should now be orange.
+This is because the 'id' attribute always takes precedence.
