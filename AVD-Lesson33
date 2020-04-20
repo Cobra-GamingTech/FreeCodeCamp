@@ -1,0 +1,25 @@
+FCC says:
+One way to add texture and interest to a background and have it stand out more is to add a subtle pattern. 
+The key is balance, as you don't want the background to stand out too much, and take away from the foreground. 
+The background property supports the url() function in order to link to an image of the chosen texture or pattern.
+The link address is wrapped in quotes inside the parentheses.
+
+This is the initial code:
+<style>
+  body {
+
+  }
+</style>
+
+The taks required me to use the url of 'https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png',
+set the background of the whole page with the body selector.
+
+This was my code:
+<style>
+  body {
+      background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png)
+  }
+</style>
+
+Remember that it is the 'background' propery we are using here.
+Carry on practicing and I'm sure you'll have the syntax memorised by now.
