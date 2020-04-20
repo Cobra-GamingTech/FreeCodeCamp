@@ -1,0 +1,71 @@
+FCC says:
+Colours have several characteristics including hue, saturation, and lightness. 
+CSS3 introduced the 'hsl()' property as an alternative way to pick a color by directly stating these characteristics.
+
+Hue is what people generally think of as 'colour'. If you picture a spectrum of colours starting with red on the left, 
+moving through green in the middle, and blue on right, the hue is where a colour fits along this line. 
+In 'hsl()', hue uses a colour wheel concept instead of the spectrum, where the angle of the colour on the circle is given 
+as a value between 0 and 360.
+
+Saturation is the amount of gray in a colour. A fully saturated colour has no gray in it, and a minimally saturated 
+colour is almost completely gray. This is given as a percentage with 100% being fully saturated.
+
+Lightness is the amount of white or black in a colour. A percentage is given ranging from 0% (black) to 100% (white), 
+where 50% is the normal colour.
+
+Here are a few examples of using 'hsl()' with fully-saturated, normal lightness colours:
+
+Color	  |  HSL
+red	    |  hsl(0, 100%, 50%)
+yellow	|  hsl(60, 100%, 50%)
+green	  |  hsl(120, 100%, 50%)
+cyan	  |  hsl(180, 100%, 50%)
+blue	  |  hsl(240, 100%, 50%)
+magenta	|  hsl(300, 100%, 50%)
+
+The initial code:
+<style>
+  body {
+    background-color: #FFFFFF;
+  }
+
+  .green {
+    background-color: #000000;
+  }
+
+  .cyan {
+    background-color: #000000;
+  }
+
+  .blue {
+    background-color: #000000;
+  }
+
+  div {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+  }
+</style>
+
+<div class="green"></div>
+<div class="cyan"></div>
+<div class="blue"></div>
+
+The task required me to change the 'background-color' of each 'div' element based on the class names
+(green, cyan, or blue) using hsl(). All three should have full saturation and normal lightness.
+
+This was my code:
+.green {
+    background-color: hsl(120, 100%, 50%);
+  }
+
+  .cyan {
+    background-color: hsl(180, 100%, 50%);
+  }
+
+  .blue {
+    background-color: hsl(240, 100%, 50%);
+  }
+
+You should see each property change after replacing the hex code with the hsl() for each colour
