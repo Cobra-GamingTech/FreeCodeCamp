@@ -1,0 +1,50 @@
+FCC says:
+The transform property has a variety of functions that let you scale, move, rotate, skew, etc., your elements. 
+When used with pseudo-classes such as :hover that specify a certain state of an element, 
+the transform property can easily add interactivity to your elements.
+
+Here's an example to scale the paragraph elements to 2.1 times their original size when a user hovers over them:
+
+p:hover {
+  transform: scale(2.1);
+}
+
+The initial code:
+<style>
+  div {
+    width: 70%;
+    height: 100px;
+    margin:  50px auto;
+    background: linear-gradient(
+      53deg,
+      #ccfffc,
+      #ffcccf
+    );
+  }
+
+
+
+</style>
+
+<div></div>
+
+The task required me Add a CSS rule for the hover state of the div and use the transform property to 
+scale the div element to 1.1 times its original size when a user hovers over it.
+
+This was my code:
+div {
+    width: 70%;
+    height: 100px;
+    margin:  50px auto;
+    background: linear-gradient(
+      53deg,
+      #ccfffc,
+      #ffcccf
+    );
+  }
+  div:hover {
+    transform: scale(1.1);
+  }
+  
+  Remember that the task wants you to ADD a rule not include the transform into the existing rule set as it is a completely
+  different effect.
