@@ -1,0 +1,33 @@
+FCC says:
+A pseudo-class is a keyword that can be added to selectors, in order to select a specific state of the element.
+For example, the styling of an anchor tag can be changed for its hover state using the ':hover' pseudo-class selector. 
+Here's the CSS to change the color of the anchor tag to red during its hover state:
+
+a:hover {
+  color: red;
+}
+
+This is the initial code:
+<style>
+  a {
+    color: #000;
+  }
+
+</style>
+<a href="http://freecatphotoapp.com/" target="_blank">CatPhotoApp</a>
+
+
+The task required me to style all 'a' tags black and to add a rule so that when the
+user hovers over the 'a' tag, the colour is blue.
+
+This was my code:
+<style>
+  a {
+    color: #000;
+  }
+a:hover {
+  color: blue;
+}
+
+It's handy to use this feature so that you can specify to a user if this specific text redirects you somewhere 
+or is important to what they are reading. Pretty much for any reason of your choice.
