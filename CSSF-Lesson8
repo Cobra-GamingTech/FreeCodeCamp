@@ -1,0 +1,79 @@
+FCC says:
+The last challenge showed an example of the justify-content property. 
+For the tweet embed, this property can be applied to align the items in the .profile-name element.
+
+The initial code:
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  header, footer {
+    display: flex;
+    flex-direction: row;
+  }
+  header .profile-thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+  }
+  header .profile-name {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 10px;
+  }
+  header .follow-btn {
+    display: flex;
+    margin: 0 0 0 auto;
+  }
+  header .follow-btn button {
+    border: 0;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  header h3, header h4 {
+    display: flex;
+    margin: 0;
+  }
+  #inner p {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  #inner hr {
+    margin: 20px 0;
+    border-style: solid;
+    opacity: 0.1;
+  }
+  footer .stats {
+    display: flex;
+    font-size: 15px;
+  }
+  footer .stats strong {
+    font-size: 18px;
+  }
+  footer .stats .likes {
+    margin-left: 10px;
+  }
+  footer .cta {
+    margin-left: auto;
+  }
+  footer .cta button {
+    border: 0;
+    background: transparent;
+  }
+</style>
+
+The task required me to add the CSS property justify-content to the header's .profile-name element 
+and set the value to any of the options from the last challenge.
+
+This was my code:
+header .profile-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+  }
+  
+You should see the change reflect in your testing environment.
+You can also use any of the other values to see different changes:
+center, flex-start, flex-end, space-around, or space-evenly.
