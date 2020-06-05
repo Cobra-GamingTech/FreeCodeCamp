@@ -1,0 +1,16 @@
+FCC says:
+We can also divide one number by another.
+
+JavaScript uses the / symbol for division.
+
+Example
+
+myVar = 16 / 2; // assigned 8
+
+The initial code:
+var quotient = 66 / 0;
+
+The task required me to change the 0 so that the quotient is equal to 2.
+
+This was my code:
+var quotient = 66 / 33;
