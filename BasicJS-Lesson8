@@ -1,0 +1,17 @@
+We can also subtract one number from another.
+
+JavaScript uses the - symbol for subtraction.
+
+Example
+
+myVar = 12 - 6; // assigned 6
+
+This was the initial code:
+var difference = 45 - 0;
+
+The task required me to change the 0 so that the difference is 12.
+
+This was my code:
+var difference = 45 - 33;
+
+Remember that the challenge wants the answer as 12 not for you to change the actual number 0 to 12
