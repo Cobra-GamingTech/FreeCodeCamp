@@ -1,0 +1,16 @@
+FCC says:
+We can also multiply one number by another.
+
+JavaScript uses the * symbol for multiplication of two numbers.
+
+Example
+
+myVar = 13 * 13; // assigned 169
+
+The initial code:
+var product = 8 * 0;
+
+The task required me to change the 0 so that the product will equal 80
+
+This was my code:
+var product = 8 * 10;
