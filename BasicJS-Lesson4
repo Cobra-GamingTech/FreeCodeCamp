@@ -1,0 +1,14 @@
+FCC says:
+It is common to initialize a variable to an initial value in the same line as it is declared.
+
+var myVar = 0;
+
+Creates a new variable called myVar and assigns it an initial value of 0.
+
+The task required me to define variable a with var and initialise it to a value of 9.
+
+This was my code:
+var a = 9;
+
+I find this odd for myself personally as being a python fanatic there is a 'more or less' similar way of setting a variable
+however it is good to practice and get into the habit.
