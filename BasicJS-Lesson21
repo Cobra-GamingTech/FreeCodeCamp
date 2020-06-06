@@ -1,0 +1,14 @@
+FCC says:
+Previously we have used the code
+
+var myName = "your name";
+
+"your name" is called a string literal. It is a string because it is a series of zero or more 
+characters enclosed in single or double quotes.
+
+The task required me to create two new string variables: myFirstName and myLastName and assign them the 
+values of your first and last name, respectively. 
+
+This was my code:
+var myFirstName = "cobra";
+var myLastName = "gamingtech";
