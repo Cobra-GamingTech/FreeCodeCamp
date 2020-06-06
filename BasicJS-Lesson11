@@ -1,0 +1,26 @@
+FCC says:
+You can easily increment or add one to a variable with the ++ operator.
+
+i++;
+
+is the equivalent of
+
+i = i + 1;
+
+The initial code:
+var myVar = 87;
+
+// Only change code below this line
+myVar = myVar + 1;
+
+The task required me to use the ++ operator on myVar.
+
+This was my code:
+var myVar = 87;
+
+// Only change code below this line
+myVar ++;
+
+This may seem like a basic task but for me it wasn't - it took me a little longer than usual
+to understand what was being asked of me. 
+Thats the learning I guess
