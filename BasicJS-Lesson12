@@ -1,0 +1,24 @@
+FCC says:
+You can easily decrement or decrease a variable by one with the -- operator.
+
+i--;
+
+is the equivalent of
+
+i = i - 1;
+
+The initial code:
+var myVar = 11;
+
+// Only change code below this line
+myVar = myVar - 1;
+
+The task required me to change the code to use the -- operator on myVar.
+
+This was my code:
+var myVar = 11;
+
+// Only change code below this line
+myVar --;
+
+In using this change, it eliminates the need for an assignment of something (equal sign)
