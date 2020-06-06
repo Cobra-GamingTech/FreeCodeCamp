@@ -1,0 +1,9 @@
+This lesson will simply show you how to divide one decimal number with another decimal number.
+
+The initial code:
+var quotient = 0.0 / 2.0; // Change this line
+
+The task required me to change the 0.0 so that the quotient will equal to 2.2.
+
+This was my code:
+var quotient = 4.4 / 2.0; // Change this line
