@@ -1,0 +1,10 @@
+FCC says:
+In JavaScript, you can also perform calculations with decimal numbers, just like whole numbers.
+
+The initial code:
+var product = 2.0 * 0.0;
+
+The task required me to change the 0.0 so that the product will equal 5.0.
+
+This was my code:
+var product = 2.5 * 2.0;
