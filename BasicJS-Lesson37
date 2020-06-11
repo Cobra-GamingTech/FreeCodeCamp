@@ -1,0 +1,17 @@
+FCC says:
+You can also nest arrays within other arrays, like below:
+
+[["Bulls", 23], ["White Sox", 45]]
+
+This is also called a multi-dimensional array.
+
+
+The initial code:
+// Only change code below this line
+var myArray = [];
+
+The task required me to create a nested array called myArray.
+
+This was my code:
+// Only change code below this line
+var myArray = [["Grand Theft Auto", 5], ["Red Dead Redemption", 2]];
