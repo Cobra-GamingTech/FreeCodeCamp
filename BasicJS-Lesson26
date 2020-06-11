@@ -1,0 +1,26 @@
+FCC says:
+We can also use the += operator to concatenate a string onto the end of an existing string variable. 
+This can be very helpful to break a long string over several lines.
+
+Note
+Watch out for spaces. Concatenation does not add spaces between concatenated strings, so you'll need to add them yourself.
+
+Example:
+
+var ourStr = "I come first. ";
+ourStr += "I come second.";
+// ourStr is now "I come first. I come second."
+
+The initial code:
+// Only change code below this line
+
+var myStr;
+
+The task required me to build myStr over several lines by concatenating these two strings:
+"This is the first sentence. " and "This is the second sentence." using the += operator. 
+
+This was my code:
+// Only change code below this line
+
+var myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
