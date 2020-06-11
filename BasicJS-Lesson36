@@ -1,0 +1,17 @@
+FCC says:
+With JavaScript array variables, we can store several pieces of data in one place.
+
+You start an array declaration with an opening square bracket, end it with a closing square bracket, and put a comma between each entry,
+like this:
+
+var sandwich = ["peanut butter", "jelly", "bread"].
+
+The initial code:
+// Only change code below this line
+var myArray = [];
+
+The task required me to modify the new array myArray so that it contains both a string and a number (in that order)
+
+This was my code:
+// Only change code below this line
+var myArray = ["Grand Theft Auto", 5];
