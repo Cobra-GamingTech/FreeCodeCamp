@@ -1,0 +1,22 @@
+FCC says:
+We can pass values into a function with arguments. You can use a return statement to send a value back out of a function.
+
+Example
+
+function plusThree(num) {
+  return num + 3;
+}
+var answer = plusThree(5); // 8
+
+plusThree takes an argument for num and returns a value equal to num + 3.
+
+The task requires me to create a function timesFive that accepts one argument and multiplies it by 5
+returning a new value. 
+
+This was my code:
+function timesFive(num) {
+  return num * 5;
+}
+var answer = timesFive(5);
+
+By replacing the number within the parentheses, you will be able to test the function
